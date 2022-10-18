@@ -1,18 +1,10 @@
-.box {
-    border: 2px solid black;
-}
 .center {
     margin-left: auto;
 	margin-right: auto;
 }
-.container0 {
-    margin: auto;
-}
 .container1 {
     max-width: 1200px;
-    margin: auto;
-    background-color: white;
-    padding: 20px;  
+    margin: auto;   
 }
 .container2 {
     display: block;
@@ -24,6 +16,9 @@
 }
 body {
     min-height: 100vh;
+}
+hr {
+    color: orange;
 }
 html {
     font-size: 16px;
@@ -37,10 +32,12 @@ h2 {
 }
 p {
     font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.8;
 }
 .logo-font {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    line-height: 1;
 }
 .text-center-align {
     display: inline-block;
@@ -102,51 +99,40 @@ p {
     display: inline-block;
     margin: 0px 5px 1px 0px;
 }
-.box-lightblue {
-    background: lightblue;
-}
-.box-green {
-    background: green;
+.image-text {
     padding: 0px 100px 0px 100px;
 }
-.box-orange {
-    background: orange;
+.title {
     text-align: center;
     padding: 20px 20px 30px 20px;
     font-size: 1.3em;
 }
-.box-purple {
-    background: purple;
+.introduction {
     text-align: center;
     padding: 0px 100px 0px 100px;
     font-size: 1.2em;
 }
-.box-blue {
-    background: rgb(77, 77, 240);
+.text-1 {
     text-align: left;
-    padding: 0px 200px 0px 200px;
-    
+    padding: 0px 100px 0px 100px;
 }
-.box-red {
+.header-1 {
     display: inline-block;
-    background: darkred;
     padding: 10px 200px 0px 200px;
     margin-left: 30px;
     font-size: 1.1em;
 }
-.box-s {
-    background: gold;
+.text-2 {
     text-align: left;
     padding-left: 95px;
     padding-bottom: 20px;
 }
-.box-brown {
-    background: saddlebrown;
+.image-2 {
     display: block;
     float: right;
     margin: 10px 20px 20px 0px;
 }
-.box-black {
+.sidebar {
     background: black;
     color: white;
     padding: 20px 25px 20px 20px;
@@ -154,27 +140,12 @@ p {
     float: right;
     margin: 20px 20px 0px 0px;
 }
-.box-red {
-    display: inline-block;
-    background: darkred;
-    padding: 10px 200px 0px 200px;
-    font-size: 1.1em;
+.header-2 {
+    display: block;
+    text-align: center;
 }
-.box-teal {
-    display: inline;
-    background: teal;
-    margin-left: 230px;
-    padding-top: 30px;
-}
-.box-pink {
-    display: inline-block;
-    background: pink;
-    width: 52%;  
-    padding-left: 95px;
-    text-align: left;
-}
-.box-r {
-    background: cornflowerblue;
-    padding-left: 95px;
+.text-3 {
+    padding-left: 100px;
     padding-right: 100px;
+    text-align: left;
 }
